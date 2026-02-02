@@ -3,147 +3,156 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Evergreen Studio</title>
+    <title>DropMap | Fortnite Landing Planner</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
       <nav class="nav">
-        <div class="logo">Evergreen Studio</div>
+        <div class="logo">DropMap</div>
         <div class="nav-links">
-          <a href="#work">Work</a>
-          <a href="#services">Services</a>
-          <a href="#process">Process</a>
-          <a href="#contact">Contact</a>
+          <a href="#features">Features</a>
+          <a href="#map">Interactive Map</a>
+          <a href="#safety">Privacy</a>
         </div>
-        <button class="cta">Book a consult</button>
+        <button class="discord">Sign in with Discord</button>
       </nav>
 
       <div class="hero-content">
-        <p class="eyebrow">Design & web experiences for modern brands</p>
-        <h1>Make your website feel alive, welcoming, and unmistakably you.</h1>
+        <p class="eyebrow">Fortnite landing planner for squads & solos</p>
+        <h1>Log in with Discord, drop into the island, and share your landing spot.</h1>
         <p class="subtitle">
-          We help founders turn bold ideas into immersive digital spaces—combining
-          thoughtful strategy, elegant visuals, and a seamless build.
+          DropMap gives you a private, interactive island map where you can mark your
+          landing, claim a POI, and plan rotations with your duo or squad. Sign in
+          with Discord to unlock your personal map.
         </p>
         <div class="hero-actions">
-          <button class="cta">Start a project</button>
-          <button class="ghost">See recent work</button>
+          <button class="discord">Connect Discord</button>
+          <button class="ghost">Watch demo</button>
         </div>
         <div class="hero-stats">
           <div>
-            <span class="stat">48+</span>
-            <span class="label">Projects shipped</span>
+            <span class="stat">3,200+</span>
+            <span class="label">Active planners</span>
           </div>
           <div>
-            <span class="stat">4.9★</span>
-            <span class="label">Client rating</span>
+            <span class="stat">18k</span>
+            <span class="label">Landing marks saved</span>
           </div>
           <div>
-            <span class="stat">12 yrs</span>
-            <span class="label">Creative leadership</span>
+            <span class="stat">24/7</span>
+            <span class="label">Squad access</span>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="work" class="section">
+      <section id="features" class="section">
         <div class="section-header">
-          <h2>Selected work</h2>
-          <p>Recent collaborations that brought ambitious ideas to life.</p>
+          <h2>Plan smarter drops</h2>
+          <p>Everything you need to coordinate your landing zone in seconds.</p>
         </div>
         <div class="cards">
           <article class="card">
-            <h3>Harbor &amp; Bloom</h3>
+            <h3>Discord login</h3>
             <p>
-              A serene ecommerce experience for an artisanal florist with seasonal
-              storytelling baked into every page.
+              Fast sign in with your Discord account and keep your map private to
+              your server or party.
             </p>
-            <span>Branding · Web · Copy</span>
           </article>
           <article class="card">
-            <h3>Nova Health</h3>
+            <h3>Landing markers</h3>
             <p>
-              A clean, trust-building site for a healthcare startup entering their
-              next growth stage.
+              Pin your exact landing spot, add notes, and color-code markers for
+              loot paths.
             </p>
-            <span>UX · UI · Webflow</span>
           </article>
           <article class="card">
-            <h3>Solace Retreats</h3>
+            <h3>Squad coordination</h3>
             <p>
-              A destination-first site that elevated a boutique resort’s digital
-              presence.
+              Invite teammates, see their drop intentions, and avoid clashes before
+              the bus even launches.
             </p>
-            <span>Visuals · Motion · Web</span>
           </article>
         </div>
       </section>
 
-      <section id="services" class="section alt">
+      <section id="map" class="section alt">
         <div class="section-header">
-          <h2>Services</h2>
-          <p>Everything you need to launch with confidence.</p>
+          <h2>Interactive Fortnite map</h2>
+          <p>
+            Explore the island, mark your landing, and share your plan. The preview
+            below shows how your squad will see live drop zones after signing in.
+          </p>
+        </div>
+        <div class="map-panel">
+          <div class="map-header">
+            <div>
+              <h3>Island Access</h3>
+              <p>Sign in with Discord to unlock squad markers.</p>
+            </div>
+            <button class="discord">Unlock with Discord</button>
+          </div>
+          <div class="map-canvas" aria-label="Fortnite island map preview">
+            <div class="map-grid"></div>
+            <div class="marker marker-blue" style="top: 24%; left: 18%;">
+              <span>Squad Alpha</span>
+            </div>
+            <div class="marker marker-green" style="top: 42%; left: 55%;">
+              <span>Loot Route</span>
+            </div>
+            <div class="marker marker-orange" style="top: 68%; left: 35%;">
+              <span>Hot Drop</span>
+            </div>
+            <div class="marker marker-purple" style="top: 30%; left: 75%;">
+              <span>Rotation</span>
+            </div>
+            <div class="map-legend">
+              <h4>Legend</h4>
+              <ul>
+                <li><span class="dot blue"></span> Squad Alpha</li>
+                <li><span class="dot green"></span> Loot Route</li>
+                <li><span class="dot orange"></span> Hot Drop</li>
+                <li><span class="dot purple"></span> Rotation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="safety" class="section">
+        <div class="section-header">
+          <h2>Private by default</h2>
+          <p>Only your Discord members can see your map. We never post without you.</p>
         </div>
         <div class="service-grid">
           <div>
-            <h4>Strategy &amp; Positioning</h4>
-            <p>Clarify your message, audience, and market through thoughtful discovery.</p>
+            <h4>Server-based access</h4>
+            <p>Use Discord roles to decide who can edit or view landing markers.</p>
           </div>
           <div>
-            <h4>Brand Identity</h4>
-            <p>Develop a visual system that scales from logo to full digital presence.</p>
+            <h4>Secure sessions</h4>
+            <p>OAuth login keeps credentials safe while you manage your map.</p>
           </div>
           <div>
-            <h4>Web Design</h4>
-            <p>Craft a digital experience that feels intuitive, vibrant, and accessible.</p>
-          </div>
-          <div>
-            <h4>Build &amp; Launch</h4>
-            <p>Responsive, performant builds with handoff or ongoing support.</p>
+            <h4>Export ready</h4>
+            <p>Download a PNG of your drop plan for quick calls in chat.</p>
           </div>
         </div>
-      </section>
-
-      <section id="process" class="section">
-        <div class="section-header">
-          <h2>Our process</h2>
-          <p>Simple, collaborative, and transparent from start to finish.</p>
-        </div>
-        <ol class="timeline">
-          <li>
-            <strong>Discover</strong>
-            <span>Workshops, research, and clarity on your goals.</span>
-          </li>
-          <li>
-            <strong>Design</strong>
-            <span>Visual direction, prototypes, and brand assets.</span>
-          </li>
-          <li>
-            <strong>Build</strong>
-            <span>Responsive development with careful QA.</span>
-          </li>
-          <li>
-            <strong>Launch</strong>
-            <span>Go-live support, analytics, and iteration.</span>
-          </li>
-        </ol>
       </section>
     </main>
 
-    <footer id="contact" class="footer">
+    <footer class="footer">
       <div>
-        <h2>Ready to build something beautiful?</h2>
-        <p>Tell us about your project and we’ll follow up within two business days.</p>
+        <h2>Ready to mark your landing?</h2>
+        <p>Connect Discord to unlock the full Fortnite drop map experience.</p>
       </div>
-      <form class="contact-form">
-        <input type="text" name="name" placeholder="Name" />
-        <input type="email" name="email" placeholder="Email" />
-        <input type="text" name="company" placeholder="Company" />
-        <button type="submit">Request proposal</button>
-      </form>
-      <p class="footer-note">© 2024 Evergreen Studio. All rights reserved.</p>
+      <div class="cta-row">
+        <button class="discord">Sign in with Discord</button>
+        <button class="ghost light">View sample map</button>
+      </div>
+      <p class="footer-note">DropMap is a fan-made planner and not affiliated with Epic Games.</p>
     </footer>
   </body>
 </html>
