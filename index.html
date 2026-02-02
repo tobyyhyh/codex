@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DropMap | Fortnite Landing Planner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">DropMap</div>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#map">Interactive Map</a>
+          <a href="#safety">Privacy</a>
+        </div>
+        <button class="discord">Sign in with Discord</button>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">Fortnite landing planner for squads & solos</p>
+        <h1>Log in with Discord, drop into the island, and share your landing spot.</h1>
+        <p class="subtitle">
+          DropMap gives you a private, interactive island map where you can mark your
+          landing, claim a POI, and plan rotations with your duo or squad. Sign in
+          with Discord to unlock your personal map.
+        </p>
+        <div class="hero-actions">
+          <button class="discord">Connect Discord</button>
+          <button class="ghost">Watch demo</button>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <span class="stat">3,200+</span>
+            <span class="label">Active planners</span>
+          </div>
+          <div>
+            <span class="stat">18k</span>
+            <span class="label">Landing marks saved</span>
+          </div>
+          <div>
+            <span class="stat">24/7</span>
+            <span class="label">Squad access</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="features" class="section">
+        <div class="section-header">
+          <h2>Plan smarter drops</h2>
+          <p>Everything you need to coordinate your landing zone in seconds.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Discord login</h3>
+            <p>
+              Fast sign in with your Discord account and keep your map private to
+              your server or party.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Landing markers</h3>
+            <p>
+              Pin your exact landing spot, add notes, and color-code markers for
+              loot paths.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Squad coordination</h3>
+            <p>
+              Invite teammates, see their drop intentions, and avoid clashes before
+              the bus even launches.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="map" class="section alt">
+        <div class="section-header">
+          <h2>Interactive Fortnite map</h2>
+          <p>
+            Explore the island, mark your landing, and share your plan. The preview
+            below shows how your squad will see live drop zones after signing in.
+          </p>
+        </div>
+        <div class="map-panel">
+          <div class="map-header">
+            <div>
+              <h3>Island Access</h3>
+              <p>Sign in with Discord to unlock squad markers.</p>
+            </div>
+            <button class="discord">Unlock with Discord</button>
+          </div>
+          <div class="map-canvas" aria-label="Fortnite island map preview">
+            <div class="map-grid"></div>
+            <div class="marker marker-blue" style="top: 24%; left: 18%;">
+              <span>Squad Alpha</span>
+            </div>
+            <div class="marker marker-green" style="top: 42%; left: 55%;">
+              <span>Loot Route</span>
+            </div>
+            <div class="marker marker-orange" style="top: 68%; left: 35%;">
+              <span>Hot Drop</span>
+            </div>
+            <div class="marker marker-purple" style="top: 30%; left: 75%;">
+              <span>Rotation</span>
+            </div>
+            <div class="map-legend">
+              <h4>Legend</h4>
+              <ul>
+                <li><span class="dot blue"></span> Squad Alpha</li>
+                <li><span class="dot green"></span> Loot Route</li>
+                <li><span class="dot orange"></span> Hot Drop</li>
+                <li><span class="dot purple"></span> Rotation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="safety" class="section">
+        <div class="section-header">
+          <h2>Private by default</h2>
+          <p>Only your Discord members can see your map. We never post without you.</p>
+        </div>
+        <div class="service-grid">
+          <div>
+            <h4>Server-based access</h4>
+            <p>Use Discord roles to decide who can edit or view landing markers.</p>
+          </div>
+          <div>
+            <h4>Secure sessions</h4>
+            <p>OAuth login keeps credentials safe while you manage your map.</p>
+          </div>
+          <div>
+            <h4>Export ready</h4>
+            <p>Download a PNG of your drop plan for quick calls in chat.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h2>Ready to mark your landing?</h2>
+        <p>Connect Discord to unlock the full Fortnite drop map experience.</p>
+      </div>
+      <div class="cta-row">
+        <button class="discord">Sign in with Discord</button>
+        <button class="ghost light">View sample map</button>
+      </div>
+      <p class="footer-note">DropMap is a fan-made planner and not affiliated with Epic Games.</p>
+    </footer>
+  </body>
+</html>
